@@ -117,4 +117,59 @@ if ($usuario == "Carlos" && $contrasena == "abc123") {
 
 #  ejemplo 1 de decision
 
+<?php
+$opcion = 3;
+
+// Estructura de decisión con switch
+switch ($opcion) {
+    case 1:
+        echo "Has seleccionado la opción 1: Ver perfil.";
+        break;
+
+    case 2:
+        echo "Has seleccionado la opción 2: Editar perfil.";
+        break;
+
+    case 3:
+        echo "Has seleccionado la opción 3: Cerrar sesión.";
+        break;
+
+    default:
+        echo "Opción no válida.";
+        break;
+}
+?>
+# ejemplo 2 de decision
+
+<?php
+$dia = "viernes";
+
+// Estructura de decisión
+switch ($dia) {
+    case "lunes":
+        echo "Inicio de semana.";
+        break;
+
+    case "martes":
+    case "miércoles":
+    case "jueves":
+        echo "Día laboral.";
+        break;
+
+    case "viernes":
+        echo "¡Por fin es viernes!";
+        break;
+
+    case "sábado":
+    case "domingo":
+        echo "Es fin de semana.";
+        break;
+
+    default:
+        echo "Día no válido.";
+        break;
+}
+?>
+
+
 

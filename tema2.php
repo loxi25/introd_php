@@ -1,22 +1,29 @@
 <?php
-$opcion = 3;
+$dia = "viernes";
 
-// Estructura de decisión con switch
-switch ($opcion) {
-    case 1:
-        echo "Has seleccionado la opción 1: Ver perfil.";
+// Estructura de decisión
+switch ($dia) {
+    case "lunes":
+        echo "Inicio de semana.";
         break;
 
-    case 2:
-        echo "Has seleccionado la opción 2: Editar perfil.";
+    case "martes":
+    case "miércoles":
+    case "jueves":
+        echo "Día laboral.";
         break;
 
-    case 3:
-        echo "Has seleccionado la opción 3: Cerrar sesión.";
+    case "viernes":
+        echo "¡Por fin es viernes!";
+        break;
+
+    case "sábado":
+    case "domingo":
+        echo "Es fin de semana.";
         break;
 
     default:
-        echo "Opción no válida.";
+        echo "Día no válido.";
         break;
 }
 ?>
