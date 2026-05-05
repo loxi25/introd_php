@@ -1,7 +1,5 @@
 # introd_php
 
-
-
 estructura de control 
 condicion - if , else , elif ....
 repeticion - for , while , do while
@@ -171,5 +169,5 @@ switch ($dia) {
 }
 ?>
 
-![unnamed](img/unnamed.png)
+![unnamed](img/unnamed.png)"unnamed"
 
